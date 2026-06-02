@@ -168,7 +168,7 @@ Digunakan untuk:
 * artifact generation
 
 Generated result:
-`path folder = D:\Frans\Dicoding\Pijak\repo\Ecologistic_Intelligence\artifacts`
+`path folder = \Ecologistic_Intelligence\artifacts`
 * trained model
 * preprocessing artifacts
 * metadata
