@@ -1,0 +1,72 @@
+.App {
+  width: 1338.75px;
+  height: 742.5px;
+  background-color: #f5f5f5;
+}
+
+.Sidebar {
+  width: 225px;
+  height: 742.5px;
+  background-color: #1a1a1a;
+}
+
+.Title {
+  display: flex;
+  width: fit-content;
+  height: inline-block;
+  border-bottom: 1.25px solid hsla(0, 0%, 100%, 0.08);
+}
+
+.Pijak {
+  display: flex;
+  width: fit-content;
+  height: inline-block;
+  gap: 9.38px;
+}
+
+.Text1 {
+  width: 17.91px;
+  height: 21.99px;
+}
+
+.Text2 {
+  width: 31.09px;
+  height: 21.99px;
+}
+
+#pi {
+  width: 19px;
+  height: 22px;
+  top: 0.25px;
+  font-family: IBM Plex Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -0.88px;
+  color: hsla(349, 86%, 53%, 1);
+}
+
+#jak {
+  width: 32;
+  height: 22;
+  top: 0.25px;
+  font-family: IBM Plex Sans;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: -0.88px;
+  color: hsla(349, 86%, 53%, 1);
+}
+
+.Split {
+  width: 1px;
+  height: 17.99px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+}
+
+.IBM {
+  width: 93.46px;
+  height: 26px;
+}
