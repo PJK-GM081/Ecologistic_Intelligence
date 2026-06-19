@@ -47,22 +47,17 @@ pip install -r requirements.txt
 Buat file bernama .env di dalam root folder proyek, lalu isi parameter berikut (sesuaikan dengan credentials Supabase dan API Key Gemini):
 Cuplikan kode
 
-```bash
-# Database Configuration (Supabase AWS Singapore Connection Pooler)
-DB_HOST=aws-0-ap-southeast-1.pooler.supabase.com
-DB_PORT=6543
-DB_NAME=postgres
-DB_USER=postgres.yvagzzqbtalvozqcncog
-DB_PASSWORD=your_supabase_password
-
-
-# Jalur Mutlak Database untuk Engine Async SQLAlchemy
-DATABASE_URL=postgresql+asyncpg://postgres.yvagzzqbtalvozqcncog:your_supabase_password@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?ssl=require&prepared_statements=false
+```env
+# Database Configuration (Google Cloud Firebase Credentials)
+FIREBASE_PROJECT_ID=ecovessel-ai-5mh5
+FIREBASE_CLIENT_EMAIL=your-firebase-adminsdk-email@iam.gserviceaccount.com
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYourPrivateKEYUtuhDiSini\n-----END PRIVATE KEY-----\n"
 
 # Gemini AI SDK Configuration
-GEMINI_API_KEY=AIzaSyYourGeminiAPIKeyUtuhDiSini
-
+GEMINI_API_KEY=YourGeminiAPIKeyUtuhDiSini
 ```
+
+
 ### 4. Nyalakan Server Uvicorn
 ``` Bash
 uvicorn backend.main:app --reload
