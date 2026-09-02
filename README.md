@@ -15,8 +15,8 @@ Pengembangan proyek mencakup machine learning, backend, dan frontend yang terint
 Untuk melihat implementasi kode secara lebih lengkap, reviewer dapat melihat branch berikut:
 
 - **ML** — Implementasi machine learning, termasuk preprocessing, training, evaluasi, dan komponen terkait model.
-- **Backend New** — Implementasi backend dan integrasi model ke dalam sistem.
-- **Frontend New** — Implementasi antarmuka pengguna untuk berinteraksi dengan sistem.
+- **Backend** — Implementasi backend dan integrasi model ke dalam sistem.
+- **Frontend New** — Implementasi antarmuka pengguna terbaru untuk berinteraksi dengan sistem.
 
 > **Note for Reviewers:**  
 > Branch di atas digunakan untuk memisahkan pengembangan berdasarkan komponen sistem. Silakan pilih branch yang sesuai untuk meninjau implementasi kode secara langsung.
@@ -27,7 +27,7 @@ Untuk melihat implementasi kode secara lebih lengkap, reviewer dapat melihat bra
 Ecologistic_Intelligence
 ├── ML
 │   └── Machine Learning implementation
-├── Backend New
+├── Backend
 │   └── Backend implementation
 └── Frontend New
-    └── Frontend implementation
+    └── Latest Frontend Version for implementation
